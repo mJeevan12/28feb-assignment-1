@@ -1,0 +1,7 @@
+def getoddoccurence(arr):
+    res=0
+    for element in arr:
+        res=res^element
+    return res
+arr=[2,3,5,4,5,2,3,2,4,4,2]
+print("%d"  % getoddoccurence(arr))  
